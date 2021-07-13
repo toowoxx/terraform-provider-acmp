@@ -1,9 +1,10 @@
 package main
 
 import (
+	"terraform-provider-acmp/acmp"
+
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-	"terraform-provider/acmp"
 )
 
 func main() {
