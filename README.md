@@ -1,0 +1,1 @@
+# terraform-also-cloud-marketplace-provider
