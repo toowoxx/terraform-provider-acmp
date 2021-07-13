@@ -1,1 +1,6 @@
-# terraform-also-cloud-marketplace-provider
+# ALSO Cloud Marketplace Provider
+
+## License
+
+[Mozilla Public License v2.0](https://github.com/toowoxx/terraform-provider-docker/blob/main/LICENSE)
+
