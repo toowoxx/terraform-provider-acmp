@@ -27,3 +27,7 @@ build-release:
 	GOOS=linux GOARCH=amd64 go build -o ./bin/${VERSION}/${BINARY}_v${VERSION}_linux_amd64
 	GOOS=openbsd GOARCH=amd64 go build -o ./bin/${VERSION}/${BINARY}_v${VERSION}_openbsd_amd64
 	GOOS=windows GOARCH=amd64 go build -o ./bin/${VERSION}/${BINARY}_v${VERSION}_windows_amd64
+
+install: build
+	mkdir -p ~/.terraform.d/plugins/${HOSTNAME}/${NAMESPACE}/${NAME}/${VERSION}/${OS_ARCH}
+	mv ${BINARY} ~/.terraform.d/plugins/${HOSTNAME}/${NAMESPACE}/${NAME}/${VERSION}/${OS_ARCH}

@@ -93,3 +93,4 @@ logs/
 *thumbs.db
 
 bin/
+terraform-provider-acmp
