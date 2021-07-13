@@ -1,7 +1,8 @@
-# <provider> ACMP (Also Cloud Marketplace) Provider
+package acmp
 
-Terraform Provider for the ALSO Cloud Marketplace, the actual URL depends on the country your login into the marketplace.
-
+//Constants for different marketplaces
+//For Testing use Debug
+const (
 	Austria     = "https://marketplace.also.at"
 	Switzerland = "https://marketplace.also.ch"
 	Germany     = "https://marketplace.also.de"
@@ -17,18 +18,4 @@ Terraform Provider for the ALSO Cloud Marketplace, the actual URL depends on the
 	Latvia      = "https://marketplace.alsolatvia.lv"
 	Poland      = "https://marketplace.alsopolska.pl"
 	Debug       = "https://marketplacetest.ccpaas.net"
-
-## Notes
-
-You need to have correct permissions in the ACMP, otherwise some resources wont work.
-
-## Example Usage
-
-```hcl
-// Code block with an example of how to use this provider.
-```
-
-## Argument Reference
-
-* List any arguments for the provider block.
-
+)
