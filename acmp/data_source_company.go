@@ -74,6 +74,27 @@ func dataSourceCompany() *schema.Resource {
 							Type:     schema.TypeString,
 							Computed: true,
 						},
+						"Marketplace": &schema.Schema{
+							Type:     schema.TypeInt,
+							Computed: true,
+						},
+						//Marketplaces is missing here
+						"VAT": &schema.Schema{
+							Type:     schema.TypeString,
+							Computed: true,
+						},
+						"AccountType": &schema.Schema{
+							Type:     schema.TypeString,
+							Computed: true,
+						},
+						"NumericId": &schema.Schema{
+							Type:     schema.TypeString,
+							Computed: true,
+						},
+						"Language": &schema.Schema{
+							Type:     schema.TypeString,
+							Computed: true,
+						},
 					},
 				},
 			},
