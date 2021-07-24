@@ -5,12 +5,16 @@ Manages an ACMP Subscription or service
 ## Example Usage
 
 ```hcl
-// Code block with an example of how to use this resource.
+resource "acmp_subscription" "example" {
+    name = "mymarketplace1"
+    account_id = ""
+}
 ```
 
 ## Argument Reference
 
-* `attribute_name` - (Optional/Required) List arguments this resource takes.
+* `name` - (Required) Name of the subscription/service.
+* `account_id` - (Required) Parent account ID of the subscription.
 
 ## Attribute Reference
 
