@@ -1,6 +1,6 @@
-# Data Source: acmp_company
+# acmp_subscription
 
-Provides information about an ACMP Company
+Manages an ACMP Subscription or service
 
 ## Example Usage
 

@@ -1,6 +1,6 @@
-# Data Source: acmp_company
+# Data Source: acmp_invoice
 
-Provides information about an ACMP Company
+Provides information about an ACMP invoice
 
 ## Example Usage
 

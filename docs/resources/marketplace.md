@@ -1,6 +1,6 @@
-# Data Source: acmp_company
+# acmp_marketplace
 
-Provides information about an ACMP Company
+Manages an ACMP Marketplace
 
 ## Example Usage
 

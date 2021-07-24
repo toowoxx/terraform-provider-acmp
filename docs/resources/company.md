@@ -1,6 +1,6 @@
-# Data Source: acmp_company
+# acmp_company
 
-Provides information about an ACMP Company
+Manages an ACMP Company
 
 ## Example Usage
 

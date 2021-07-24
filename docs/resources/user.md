@@ -1,6 +1,6 @@
-# Data Source: acmp_company
+# acmp_user
 
-Provides information about an ACMP Company
+Manages an ACMP User Account
 
 ## Example Usage
 
