@@ -1,3 +1,5 @@
+[![release](https://github.com/toowoxx/terraform-provider-acmp/actions/workflows/release.yml/badge.svg)](https://github.com/toowoxx/terraform-provider-acmp/actions/workflows/release.yml)
+
 # ALSO Cloud Marketplace Provider
 
 ## License
